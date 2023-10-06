@@ -18,7 +18,7 @@ document.querySelector('.check').addEventListener('click', function () {
   } else if (guess == number) {
     document.querySelector('.message').textContent = 'Correct Number';
     document.querySelector('.number').textContent = number;
-    document.querySelector('.score').textContent = highscore;
+    document.querySelector('.score').textContent = score;
     if (highscore < score) {
       highscore = score;
     }
